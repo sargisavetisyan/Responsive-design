@@ -1,0 +1,136 @@
+.servicis {
+    padding: 180px 0px 120px 0px;
+    background-color: #e4fdf9;
+}
+
+.servicis__body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 110px 0px 0px 0px;
+}
+
+.servicis__column {
+    flex: 0 1 33.333%;
+    padding: 0px 21px 31px 0px;
+}
+
+.servicis__item {
+    background-color: #fff;
+    cursor: pointer;
+    color: #212121;
+    text-align: center;
+    padding: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+.servicis__item:hover {
+    background-color: #00897b;
+    box-shadow: 0px 10px 20px 0px #00000059;
+    color: #fff;
+}
+
+.servicis__icon:not(:last-child) {
+    margin: 0px 0px 40px 0px;
+}
+
+.servicis__title {
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 800;
+}
+
+.servicis__title:not(:last-child) {
+    margin: 0px 0px 20px 0px;
+}
+
+.servicis__text {
+    font-size: 15px;
+    line-height: 1.667;
+}
+
+.servicis__text:not(:last-child) {
+    margin: 0px 0px 40px 0px;
+}
+
+.servicis__button {
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 800;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #212121;
+    border: 2px solid #212121;
+    min-height: 52px;
+    min-width: 146px;
+    padding: 15px 17px;
+    transition: all 0.3s ease 0s;
+}
+
+.servicis__button:hover {
+    background-color: #fff;
+}
+
+
+@media (max-width: 992px) {
+    .servicis {
+        padding: 125px 0px 112px 0px;
+    }
+
+    .servicis__container {
+        margin: 0px -21px 0px 0px;
+    }
+
+    .servicis__column {
+        flex: 0 1 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .servicis {
+        padding: 80px 0px;
+    }
+
+    .servicis__body {
+        margin: 80px 0px 0px 0px;
+    }
+
+    .servicis__column {
+        flex: 0 1 100%;
+    }
+
+    .servicis {
+        padding: 80px 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    .servicis {
+        padding: 30px 0px;
+    }
+
+    .servicis__container {
+        padding: 0;
+    }
+
+    .servicis__body {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .servicis__column {
+        padding: 0px 0px 31px 0px;
+    }
+
+    .servicis__icon:not(:last-child) {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .servicis__text:not(:last-child) {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .servicis__button {
+        font-size: 18px;
+    }
+}

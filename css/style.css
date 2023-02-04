@@ -1,0 +1,27 @@
+@import url(base.css);
+@import url(variable.css);
+@import url(header.css);
+@import url(main-block.css);
+@import url(about.css);
+@import url(servicis.css);
+@import url(portfolio.css);
+@import url(pricing.css);
+@import url(teammember.css);
+@import url(blog.css);
+@import url(contact.css);
+@import url(footer.css);
+
+
+/* @media (max-width: 576px) {}
+
+
+@media (max-width: 768px) {}
+
+
+@media (max-width: 992px) {}
+
+
+@media (max-width: 1200px) {}
+
+
+@media (max-width: 1400px) {} */

@@ -1,0 +1,71 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-weight: 400;
+    background-color: #fff;
+    color: #212121;
+    font-family: OpenSans;
+    font-size: 15px;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+._container {
+    max-width: 1171px;
+    padding: 0px 15px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+
+/* ---------ԸՆԴՀԱՆՈՒՐ ԿԼԱՍՆԵՐ--------------- */
+
+.header-block {
+    color: #212121;
+    text-align: center;
+    z-index: 8;
+}
+
+.header-block__title {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 0.733;
+}
+
+.header-block__title:not(:last-child) {
+    margin: 0px 0px 35px 0px;
+}
+
+.header-block__sub-title {
+    font-size: 15px;
+    line-height: 1.467;
+}

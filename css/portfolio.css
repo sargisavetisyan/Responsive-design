@@ -1,0 +1,135 @@
+.portfolio {
+    margin: 125px 0px 136px 0px;
+}
+
+.portfolio__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 112px 0;
+    justify-content: center;
+}
+
+.portfolio__button {
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 800;
+    color: #212121;
+    margin-right: 15px;
+    min-width: 175px;
+    min-height: 51px;
+    border: 2px solid #00897b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+.portfolio__button:first-child {
+    min-width: 100px;
+}
+
+/* .portfolio__button:last-child {
+    margin-right: 0;
+} */
+
+.portfolio__button:hover {
+    background-color: #00897b;
+    color: #212121;
+}
+
+.portfolio__body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 121px 0px;
+}
+
+.portfolio__column {
+    flex: 0 1 33.333%;
+}
+
+.portfolio__item {
+    padding: 0px 0px 30px 0px;
+}
+
+.portfolio__item img {
+    object-fit: contain;
+    vertical-align: top;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.portfolio__item:hover {
+    filter: brightness(40%);
+}
+
+.allbutton {
+    font-size: 20px;
+    background-color: #00897b;
+    color: #fff;
+    font-weight: 800;
+    line-height: 1.1;
+    min-width: 220px;
+    min-height: 70px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+.allbutton:hover {
+    background-color: #fff;
+    border: 2px solid #00897b;
+    color: #212121;
+}
+
+@media (max-width: 1220px) {
+    .portfolio__column {
+        flex: 1 1 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .portfolio__button {
+        min-width: 200px;
+        flex: 0 1 50%;
+        margin: 0px 20px 20px 0px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .portfolio {
+        margin: 80px 0px 80px 0px;
+    }
+
+    .portfolio__body {
+        margin: 0px 0px 30px 0px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .portfolio {
+        margin: 30px 0px 30px 0px;
+    }
+
+    .portfolio__buttons {
+        margin: 50px 0;
+    }
+
+    .portfolio__button {
+        flex: 1 1 100%;
+        margin-right: 0;
+    }
+
+    .allbutton {
+        display: flex;
+    }
+
+    .portfolio__item img {
+        width: 280px;
+        height: auto;
+    }
+}
